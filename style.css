@@ -1,0 +1,22 @@
+/* 自訂捲軸樣式 */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(51, 65, 85, 0.8);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(99, 102, 241, 0.6);
+}
+
+/* Three.js 容器樣式 */
+#canvasContainer canvas {
+    width: 100% !important;
+    height: 100% !important;
+    outline: none;
+}
